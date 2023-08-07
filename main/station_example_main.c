@@ -67,13 +67,13 @@ static int s_retry_num = 0;
 // LED blink task
 void blink_task(void *pvParameter)
 {
-    gpio_pad_select_gpio(GPIO_NUM_2);
-    gpio_set_direction(GPIO_NUM_2, GPIO_MODE_OUTPUT);
+    gpio_pad_select_gpio(GPIO_NUM_4);
+    gpio_set_direction(GPIO_NUM_4, GPIO_MODE_OUTPUT);
     while (1)
     {
-        gpio_set_level(GPIO_NUM_2, 1); // LED ON
+        gpio_set_level(GPIO_NUM_4, 1); // LED ON
         vTaskDelay(500 / portTICK_PERIOD_MS);
-        gpio_set_level(GPIO_NUM_2, 0); // LED OFF
+        gpio_set_level(GPIO_NUM_4, 0); // LED OFF
         vTaskDelay(500 / portTICK_PERIOD_MS);
     }
 }
