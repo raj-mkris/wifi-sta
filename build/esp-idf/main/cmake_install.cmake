@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/dkp02/OneDrive/Desktop/Raj/wifi-sta/main
+# Install script for directory: C:/Users/dkp02/OneDrive/Desktop/Raj/backup/wifi-sta/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/dkp02/OneDrive/Desktop/Raj/wifi-sta/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/dkp02/OneDrive/Desktop/Raj/backup/wifi-sta/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

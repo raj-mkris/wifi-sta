@@ -88,7 +88,7 @@ void ota_task(void *pvParameter)
         esp_err_t ota_result = ESP_OK;
 
         esp_http_client_config_t config = {
-            .url = "http://127.0.0.1:5500//build/wifi-sta.bin", // Replace with the URL of your firmware server
+            .url = "https://github.com/raj-mkris/wifi-sta/blob/master/build/wifi-sta.bin", // Replace with the URL of your firmware server
         };
 
         esp_https_ota_config_t ota_config = {
